@@ -55,9 +55,6 @@ static double randUniform(double a, double b) {
 }
 
 int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-
     int n, T, D, H, E;
     double lr;
     if(!(cin >> n >> T >> D >> H >> E >> lr)){
